@@ -8,6 +8,7 @@ type Prop = {
 }
 
 export default function LoginPage({ currentUser, setCurrentUser}:Prop){
+    
 
     const navigate = useNavigate() 
     const [credentials, setCreadetianls] = useState(true)
